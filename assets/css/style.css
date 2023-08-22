@@ -1,0 +1,13 @@
+.enlargeOnHover {
+  transition: transform .5s;
+}
+
+.enlargeOnHover:hover {
+  transform: scale(1.15);
+}
+
+.aib {
+  border-radius: 10rem!important;
+  border-style: none;
+}
+
