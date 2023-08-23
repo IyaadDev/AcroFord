@@ -11,3 +11,8 @@
   border-style: none;
 }
 
+.text-muted {
+  font-size: small;
+  margin-top: 0.5rem;
+}
+
