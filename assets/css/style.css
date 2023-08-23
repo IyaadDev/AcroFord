@@ -16,3 +16,15 @@
   margin-top: 0.5rem;
 }
 
+.fit-cover {
+  object-fit: cover;
+}
+
+.rCard {
+  transition: transform .5s;
+}
+
+.rCard:hover {
+  transform: scale(1.1);
+}
+
