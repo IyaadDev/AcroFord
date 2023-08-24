@@ -28,3 +28,41 @@
   transform: scale(1.075);
 }
 
+/* Enlarge partitions */
+
+.enlarge-1 {
+  transition: transform 0.6s;
+}
+
+.enlarge-1:hover {
+  transform: scale(1.75);
+}
+
+.enlarge-2 {
+  transition: transform 0.6s;
+}
+
+.enlarge-2:hover {
+  transform: scale(1.5);
+}
+
+.enlarge-3 {
+  transition: transform 0.6s;
+}
+
+.enlarge-3:hover {
+  transform: scale(1.25);
+}
+
+.enlarge-4 {
+  transition: transform 0.6s;
+}
+
+.enlarge-4:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background: white;
+}
+
