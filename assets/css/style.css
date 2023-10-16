@@ -22,10 +22,12 @@
 
 .rCard {
   transition: transform 0.6s;
+  z-index: 1!important;
+  border-radius: 15px!important;
 }
 
 .rCard:hover {
-  transform: scale(1.075);
+  transform: scale(1.055);
 }
 
 /* Enlarge partitions */
@@ -64,5 +66,13 @@
 
 body {
   background: white;
+}
+
+.rContainer {
+  overflow: hidden!important;
+}
+
+.bringF {
+  z-index: 1;
 }
 
